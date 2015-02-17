@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*
+CSS Desenvolvido exclusivamente para o projeto StormSecurity
+CSS Responsivo para dispositivos móveis
+14/02/2014 - Thiago Tito
+
+www.thiagotito.com
+contato@thiagotito.com
+skype: thiagodash.tito
+phone: 964366083
+*/
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+
+@media only screen and (max-width : 640px) {
+/* menu */
+p{margin:0;}
+
+#navResponsive{display:block;}
+nav h1{}
+nav{left:50%;margin-left:-45%;width:90%;min-width:90%;height:40px;margin:;position:fixed;top:9px;background:#f00 url(../img/bg_menu.png);border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;z-index:999;}
+nav h1{float:left;display:block;margin:0 0 0 24px;width:40%;height:100%;overflow:hidden;}
+nav h1 a img{width:100%;height:auto;}
+
+#top-menu{display:none;}
+
+.btn-group {position:relative;/*border:;width:55%;border:solid 1px #fff;*/float:right;background:url(../img/barra_menu.png) no-repeat 0 10px;}
+.btn-group .btn-default{background:none;padding:0;float:right;display:block;}
+.btn-group .dropdown-toggle{padding:0;width:auto;height:40px;width:40px;/*position:absolute;right:0;top:0;*/background:url(../img/responsivo_click.png) no-repeat 10px 13px;border:none;}
+.btn-group .dropdown-toggle:hover,.btn-group .dropdown-toggle:active,.btn-group .dropdown-toggle:focus{background:url(../img/responsivo_click.png) no-repeat 10px 13px;}
+
+*/
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{background:#000 url(../img/responsivo_click.png) no-repeat 10px -14px;border-radius:3px 3px 0 3px;-webkit-border-radius:3px 3px 0 3px;-moz-border-radius:3px 3px 0 3px;}
+
+.btn-group .dropdown-menu{/*position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;font-size:14px;border:1px solid #ccc;border:1px solid rgba(0,0,0,.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);box-shadow:0 6px 12px rgba(0,0,0,.175);background-clip:padding-box*/background-color:rgba(0, 0, 0, 0.8);min-width:202px;left:-161px;margin:-1px 0 0 0;padding:0;border-radius:0 0 8px 8px;-webkit-border-radius:0 0 8px 8px;-moz-border-radius:0 0 8px 8px;-webkit-transition:.5s all ease-out;-moz-transition:.5s all ease-out;transition:.5s all ease-out;}
+
+#dropdownNav{}
+#dropdownNav li{border-bottom:solid 1px #292c2e;}
+#dropdownNav li.mrgNo{border-bottom:none;}
+#dropdownNav a{display:block;text-align:left;color:#e4f2fd;text-decoration:none;font-family:"Trebuchet MS";text-transform:uppercase;font-size:14px;line-height:20px;margin:0;}
+#dropdownNav a:hover{color:#fff;background:url(../img/mark_bg_link.png) no-repeat right;}
+#dropdownNav li.active a{color:#fff;}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{background:url(../img/mark_bg_link.png) no-repeat right;}
+
+#dropdownNav li p{font-family:'Gilda Display',serif;text-transform:none;color:#e4f2fd;display:block;margin:0 13px;font-size:12px;padding:5px 0;}
+#dropdownNav li p strong{font-size:15px;}
+.dropdown-menu>li>a{padding:4px 13px;}
+/* menu */
+
+/* header */
+header{width:100%;min-width:100%;height:auto;background:url(../img/bg_header.png);overflow:hidden;}
+header #bgFrontHead{width:100%;min-width:100%;height:auto;background:url(../img/bg_header_front.png) center no-repeat;}
+/* header */
+
+div.main{width:100%;min-width:100%;height:auto;margin:0 auto;}
+
+#newsResponsive{display:block;width:100%;background:#fff;padding:5px;}
+#newsResponsive select{color:#000;width:100%;background:#fff;padding:5px;}
+#newsResponsive select option{background:#fff;color:#000;}
+
+section{width:100%;min-width:100%;background:#151515 url(../img/bg_center.png);color:#fff;}
+article{width:100%;float:left;overflow:hidden;}
+div.newsRol{width:100%;padding:40px 10px 0 10px;float:left;}
+div.newsRol img{width:100%;min-width:100%;}
+div.arrows{background:#1b2732;border:solid 1px #153c57;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;float:right;width:84px;text-align:center;margin:147px 0 0 0;display:none;}
+aside{background:url(../img/bg_text.png) no-repeat;width:320px;float:right;margin:147px 0 0 0;padding:45px 0 0 30px;display:none;}
+
+footer{background:url(../img/bg_footer.png);width:100%;min-width:100%;height:653px;}
+footer .main .quote{background:none;text-align:center;width:100%;height:95px;margin:0 auto;color:#fff;font-size:18px;padding:13px 10px;}
+
+footer .main ul li{display:block;float:none;}
+footer .main ul li form{display:block;width:100%;padding:0 15px;margin:0;}
+footer .main ul li form input,footer .main ul li form textarea{background:#e4f2fd;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;padding:8px;margin:5px 0 0 0;width:100%;font-family: 'Gilda Display', serif;font-size:14px;}
+footer .main ul li.formBox{background:none;padding:0;display:block;width:100%;}
+footer .main ul li form input.btn{background:#1979bc;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;width:auto;float:right;padding:7px 15px;color:#fff;font-size:13px;text-transform:uppercase;margin:0;}
+
+.bottom{display:block;padding:15px 0 20px 15px;}
+
+}

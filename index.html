@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title></title>
+
+<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+<script type="text/javascript" src="js/navResponsive.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script type="text/javascript" src="js/validate.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/banners.css" />
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/mediaqueries.css" />
+
+</head>
+<body>
+	<!-- 640 -->
+	<nav>
+		<h1><a href="index.html" title="Storm Security"><img src="img/logo_stormsecurity.png" alt="Storm Security" /></a></h1>
+		<div id="navResponsive">
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"></button>
+				<ul class="dropdown-menu" id="dropdownNav">
+					<li id="MMhome"><a href="#"><span class="fa fa-laptop"></span>Top</a></li>
+					<li id="MMmeusTrabalhos"><a href="#not"><span class="fa fa-edit"></span>Notícias</a></li>
+					<li id="MMorcamento"><a href="#cont"><span class="fa fa-print"></span>Contatos</a></li>
+					<li>
+						<p>
+							Rio de Janeiro<br />
+							Av. Lúcio Costa 3400 - Sl 304. Barra da Tijuca - Rio de Janeiro / RJ<br />
+							CEP 22630-010
+						</p>
+					</li>
+					<li>
+						<p>
+							<strong>+55 (21) 3734-0695</strong>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul id="top-menu">
+			<li class="active">
+				<a href="#">Top</a>
+			</li>
+			<li>
+				<a href="#not">Notícias</a>
+			</li>
+			<li class="noMrg">
+				<a href="#cont">Contato</a>
+			</li>
+		</ul>
+	<br class="clear">
+	</nav>
+	
+	<header>
+		<div id="bgFrontHead">
+			<div class="main">
+				<div id="slider1_container">
+
+				<!-- Loading Screen -->
+				<div u="loading" id="load">
+					<div id="loadOne"></div>
+					<div id="loadTwo"></div>
+				</div>
+	
+				<!-- Slides Container -->
+				<div u="slides" id="slideContainer">
+					<div>
+						<img u="image" src2="img/img_carousel.png" />
+					</div>
+					<div>
+						<img u="image" src2="img/img_carousel.png" />
+					</div>
+					<div>
+						<img u="image" src2="img/img_carousel.png" />
+					</div>
+					<div>
+						<img u="image" src2="img/img_carousel.png" />
+					</div>
+				</div>
+				<!-- Bullet Navigator Skin Begin -->
+				<style>
+					/* jssor slider bullet navigator skin 05 css */
+					/*
+					.jssorb05 div           (normal)
+					.jssorb05 div:hover     (normal mouseover)
+					.jssorb05 .av           (active)
+					.jssorb05 .av:hover     (active mouseover)
+					.jssorb05 .dn           (mousedown)
+					*/
+					.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+						background: url(img/b21.png) no-repeat;
+						overflow: hidden;
+						cursor: pointer;
+					}
+	
+					.jssorb05 div {
+						background-position: -7px -7px;
+					}
+	
+						.jssorb05 div:hover, .jssorb05 .av:hover {
+							background-position: -37px -7px;
+						}
+	
+					.jssorb05 .av {
+						background-position: -67px -7px;
+					}
+	
+					.jssorb05 .dn, .jssorb05 .dn:hover {
+						background-position: -97px -7px;
+					}
+				</style>
+				<!-- bullet navigator container -->
+				<div u="navigator" class="jssorb05" style="position: absolute; bottom: 16px; right: 6px;">
+					<!-- bullet navigator item prototype -->
+					<div u="prototype" style="POSITION: absolute; WIDTH: 16px; HEIGHT: 16px;"></div>
+				</div>
+				<!-- Bullet Navigator Skin End -->
+				<!-- Arrow Navigator Skin Begin -->
+				<style>
+					/* jssor slider arrow navigator skin 11 css */
+					/*
+					.jssora11l              (normal)
+					.jssora11r              (normal)
+					.jssora11l:hover        (normal mouseover)
+					.jssora11r:hover        (normal mouseover)
+					.jssora11ldn            (mousedown)
+					.jssora11rdn            (mousedown)
+					*/
+					.jssora11l, .jssora11r, .jssora11ldn, .jssora11rdn {
+						position: absolute;
+						cursor: pointer;
+						display: block;
+						background: url(img/banner_arrows.png) no-repeat;
+						overflow: hidden;
+					}
+	
+					.jssora11l {
+						background-position: -36px 0;
+					}
+	
+					.jssora11r {
+						background-position: 0 0;
+					}
+	
+					.jssora11l:hover {
+						background-position: -36px -63px;
+					}
+	
+					.jssora11r:hover {
+						background-position: 0 -63px;
+					}
+	
+					.jssora11ldn {
+						background-position: -36px -62px;
+					}
+	
+					.jssora11rdn {
+						background-position: 0 -62px;
+					}
+				</style>
+				<!-- Arrow Left -->
+				<span u="arrowleft" class="jssora11l" style="width: 36px; height: 63px; top: 123px; left: 8px;"></span>
+				<!-- Arrow Right -->
+				<span u="arrowright" class="jssora11r" style="width: 36px; height: 63px; top: 123px; right: 8px"></span>
+			</div>
+			</div>
+		</div>
+	</header>
+	
+	<section>
+		<div class="main" id="not">
+			<article>
+				<div class="newsRol">
+					
+					<form id="newsResponsive">
+						<select>
+							<option value="oGlobo">O GLOBO BLOGS - INOVAÇÃO</option>
+							<option selected value="pequenasEmpresas">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</option>
+							<option value="galileu">REVISTA GALILEU</option>
+						</select>
+					</form>
+					
+					<h5>PEQUENAS EMPRESAS GRANDES NEGÓCIOS</h5>
+					<br />
+					<p>Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar fazendas e gerenciar o trânsito</p>
+					<img src="img/img_materia.png" alt="" /><br />
+					<em>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</em><br />
+					<br />
+					<p>
+						O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. “É bom que a gente já vê se o aviãozinho se garante em qualquer clima”, diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.<br />
+<br />
+Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo que adote esse tipo de equipamento na busca por automóveis roubados, e a Inglaterra planeja empregar Vants durante as Olimpíadas para patrulhar bancos, motoristas com “comportamento antissocial” e manifestantes. Esse tipo de Big Brother aéreo é também o objetivo do brasileiro. Seus aviões poderão monitorar o trânsito, auxiliar na busca de veículos suspeitos e no controle das fronteiras de propriedades rurais. O software do equipamento é preparado para, por exemplo, identificar a placa de um carro roubado e fornecer a sua localização à polícia.
+					</p>
+				</div>
+				<div class="arrows">
+					<br />
+					<a href="#">
+						<img src="img/face_like.png" width="55" height="20" alt="" />
+					</a>
+					<br />
+					<a href="#">
+						<img src="img/twitter_tweet.png" width="55" height="20" alt="" />
+					</a>
+					<br />
+						<img src="img/div.png" alt="" />
+					<br /><br />
+					<a href="#">
+						<strong>&nbsp;</strong>
+						Próximo
+					</a>
+					<br /><br />
+					<a href="#">
+						<strong class="back">&nbsp;</strong>
+						Anterior
+					</a>
+					<br /><br />
+				</div>
+				<br class="clear">
+			</article>
+			<aside>
+				<p>
+					O GLOBO BLOGS - INOVAÇÃO<br />
+					PEQUENAS EMPRESAS GRANDES NEGÓCIOS<br />
+					REVISTA GALILEU
+				</p>
+			</aside>
+			<br class="clear">
+			<div id="cont"></div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br />
+		</div>
+	</section>
+	
+	<footer>
+		<div class="main">
+			<br /><br /><br /><br /><br /><br /><br />
+			<p class="quote">
+				Envie-nos uma solicitação, dúvida, sugestão ou crítica. Nossa equipe responderá o contato o quanto antes
+			</p>
+			<ul>
+				<li class="formBox">
+					<form method="post" id="formFooter" name="formFooter" action="formFooter.php" onsubmit="return validaFF();">
+						<p>Mande sua mensagem</p>
+						<input type="text" name="nameFF" id="nameFF" value="seu nome" onfocus="clearName();" onblur="fillName();" /><br />
+						<input type="text" name="emailFF" id="emailFF" value="seu email" onfocus="clearEmail();" onblur="fillEmail();"  /><br />
+						<textarea name="messageFF" id="messageFF" onfocus="clearMessage();" onblur="fillMessage();">sua mensagem</textarea><br />
+						<input type="submit" value="Enviar" class="btn" />
+					</form>
+					<br class="clear" />
+				</li>
+				<li class="bottom">
+					<p>
+						<strong>Rio de Janeiro</strong><br />
+						Av. Lúcio Costa 3400 - Sl 304. Barra da Tijuca<br />
+						Rio de Janeiro / RJ - CEP 22630-010<br />
+						Office: +55 (21) 3734-0695<br />
+						<br />
+						<br />
+						<strong>New York</strong><br />
+						136 Madison Avenue - New York, NY 10016<br />
+						Office: +1 (646) 722 3838
+					</p>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jssor slider scripts-->
+    <!-- use jssor.js + jssor.slider.js instead for development -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script>
+
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 3500,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+                $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                },
+
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 12,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 4,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                }
+            };
+
+            //Make the element 'slider1_container' visible before initialize jssor slider.
+            $("#slider1_container").css("display", "block");
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    jssor_slider1.$ScaleWidth(parentWidth - 30);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+</body>
+</html>

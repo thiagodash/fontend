@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+CSS Desenvolvido exclusivamente para o projeto StormSecurity
+14/02/2014 - Thiago Tito
+
+www.thiagotito.com
+contato@thiagotito.com
+skype: thiagodash.tito
+phone: 964366083
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+
+*{margin:0; padding:0; border:none; list-style:none; outline:none;}
+body{font-family: 'Gilda Display', serif;position:relative;line-height:normal;}
+div.main{width:940px;min-width:940px;margin:0 auto;}
+br.clear{clear:both;}
+a{color:#fff;text-decoration:none;font-size:12px;}
+a:hover,a:active{text-decoration:none;color:#fff;}
+img{vertical-align:baseline;}
+
+/* header */
+header{width:100%;min-width:986px;height:523px;background:url(../img/bg_header.png);}
+header #bgFrontHead{width:100%;min-width:986px;height:523px;background:url(../img/bg_header_front.png) center no-repeat;}
+
+#slider1_container{position: relative; margin: 0 auto; width: 986px;height: 560px; overflow: hidden;}
+#load{position: absolute; top: 0px; left: 0px;}
+#loadOne{filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;background-color: #000; top: 0px; left: 0px; width: 986px;height: 560px;}
+#loadTwo{position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;top: 0px; left: 0px; width: 986px;height: 560px;}
+
+#slideContainer{position: absolute; left: 0px; top: 20px; width: 986px;height: 560px;overflow: hidden;}
+/* header */
+
+/* menu */
+#navResponsive{display:none;}
+nav{left:50%;margin-left:-493px;position:fixed;width:986px;height:56px;min-width:986px;top:9px;background:url(../img/bg_menu.png);border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;z-index:999;}
+nav h1{float:left;display:block;margin:14px 0 0 24px;}
+#top-menu{width:986px;min-width:986px;background:;display:block;}
+#top-menu li{float: left;background:url(../img/barra_menu.png) right no-repeat;}
+#top-menu li.noMrg{background:none;}
+#top-menu a{display:block;/*padding:5px 25px 7px 25px;width:4em;*/text-align:center;-webkit-transition:.5s all ease-out;-moz-transition:.5s all ease-out;transition:.5s all ease-out;border-bottom:5px solid #000;color:#fff;text-decoration: none;font-family:"Trebuchet MS";text-transform:uppercase;font-size:14px;line-height:51px;margin:0 15px;}
+#top-menu a:hover{color:#fff;border-bottom:5px solid #fff001;}
+#top-menu li.active a{border-bottom:5px solid #fff001;color:#fff;}
+/* menu */
+
+section{width:100%;min-width:986px;background:#151515 url(../img/bg_center.png);color:#fff;}
+section p{font-size:12px;}
+
+article{width:570px;float:left;}
+
+div.newsRol{width:464px;padding:80px 0 0 0;float:left;}
+div.newsRol em{font-size:10px;font-weight:normal;font-style:normal;}
+
+#newsResponsive{display:none}
+
+div.arrows{background:#1b2732;border:solid 1px #153c57;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;float:right;width:84px;text-align:center;margin:147px 0 0 0;}
+div.arrows a strong{display:block;background:url(../img/arrows_news.png);width:37px;height:37px;margin:0 auto;}
+div.arrows a strong:hover{display:block;background:url(../img/arrows_news.png) 0 -37px;width:37px;height:37px;}
+div.arrows a strong.back{background:url(../img/arrows_news.png)-37px 0px;width:37px;height:37px;}
+div.arrows a strong.back:hover{background:url(../img/arrows_news.png)-37px -37px;width:37px;height:37px;}
+
+aside{background:url(../img/bg_text.png) no-repeat;width:320px;float:right;margin:147px 0 0 0;padding:45px 0 0 30px;}
+aside p{line-height:30px;}
+
+footer{background:url(../img/bg_footer.png);width:100%;min-width:986px;height:653px;}
+footer .main .quote{background:url(../img/bg_quote_footer.png) no-repeat;text-align:center;width:647px;height:130px;margin:0 auto;color:#fff;font-size:18px;padding:13px 10px;}
+
+footer .main ul li{display:block;float:left;}
+footer .main ul li.formBox{background:url(../img/bg_form.jpg) 120px -5px no-repeat;padding:13px 0 0 23px;}
+footer .main ul li form{display:block;width:475px;padding:0 61px 0 0;}
+footer .main ul li form input,footer .main ul li form textarea{background:#e4f2fd;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;padding:8px;margin:5px 0 0 0;width:400px;font-family: 'Gilda Display', serif;font-size:14px;}
+footer .main ul li form textarea{height:111px;}
+footer .main ul li form p{font-size:15px;color:#e4f2fd;}
+footer .main ul li p{color:#fff;font-size:13px;}
+footer .main ul li p strong{font-size:16px;}
+footer .main ul li form input.btn{background:#1979bc;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;width:auto;float:right;padding:7px 15px;color:#fff;font-size:13px;text-transform:uppercase;margin:0 14px 0 0;}
+footer .main ul li form input.btn:hover{cursor:pointer;}
